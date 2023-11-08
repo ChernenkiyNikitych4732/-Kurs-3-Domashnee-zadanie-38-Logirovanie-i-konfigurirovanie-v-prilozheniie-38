@@ -1,13 +1,14 @@
 package sky.pro.course3.homework;
 
+import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Course3Homework38Application {
+@OpenAPIDefinition
+public class HogwartsApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Course3Homework38Application.class, args);
+        SpringApplication.run(HogwartsApplication.class, args);
     }
-
 }
